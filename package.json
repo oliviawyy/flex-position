@@ -1,0 +1,21 @@
+{
+  "name": "flex-position",
+  "version": "1.0.0",
+  "description": "estudos sobre display- flex e position",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "display",
+    "flex",
+    "position",
+    "menu",
+    "listas",
+    "CSS",
+    "HTML",
+    "estilos"
+  ],
+  "author": "olivia",
+  "license": "ISC"
+}
