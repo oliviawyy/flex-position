@@ -19,13 +19,14 @@
     justify-content: space-between;
     padding: 0 20px;
     z-index: 1000; /* fica acima de outros */
-
+    height: 9vh;
     
 }
 
 /* controla o tamanho da imagem da logo */
 .header-logo img{
-    height: 50px;
+    height: 70px;
+
     
     
     
@@ -70,7 +71,7 @@
 }
 
 /* icone perfil: remove margem e define tamanho */
-.header-icon figure{
+.header-icon{
     margin: 0;
     width: 40px;
     height: 40px;
@@ -78,8 +79,8 @@
 
 /* icone perfil: imagem redonda com sombra */
 .header-icon img{
-    width: 100%;
-    height: 100%;
+    width: 40px;
+    height: 40px;
     object-fit: cover;
     /* deixa o icone redondo */
     border-radius: 50%;
@@ -100,6 +101,6 @@
 
 /* efeito foco no campo de busca */
 .header-search input:focus{
-    border-color: rgb(144, 180, 247);
+    border-color: rgb(133, 252, 252);
     box-shadow: 0 0 8px  rgb(144, 180, 247);
 }
