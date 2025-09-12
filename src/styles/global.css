@@ -3,6 +3,31 @@
 @import url(./cards.css);
 @import url(./footer.css);
 
+html{
+    scroll-behavior: ;
+}
+
+.content-nosso-time, .content-cursos, .content-faq, .content-contato{
+}
+
+.content-nosso-time{
+}
+
+.content-cursos{
+}
+
+.content-faq{
+}
+
+.content-contato{
+}
+
+
+
+
+
+
+
 .main-content{
     width: 100%;
     height: 200vh;

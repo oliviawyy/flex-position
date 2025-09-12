@@ -8,8 +8,8 @@
 
     display: flex;
     padding: 100;
-    background-color: rgb(166, 213, 254);
-    box-shadow: 0 2px 5px cornflowerblue;
+    background-color: rgb(130, 220, 243);
+    box-shadow: 0 2px 5px rgb(127, 194, 238);
 
     /* flex para alinhae os itens horizontalmente */
     display: flex;
@@ -56,7 +56,7 @@
 
 /* efeito hover nos itens do menu */
 .header-menu li:hover{
-    background-color: darkblue;
+    background-color: rgb(60, 60, 238);
     color: aliceblue;
     box-shadow: 0 4px 8px rgb(19, 59, 135);
     
@@ -101,6 +101,6 @@
 
 /* efeito foco no campo de busca */
 .header-search input:focus{
-    border-color: rgb(133, 252, 252);
+    border-color: rgb(49, 195, 231);
     box-shadow: 0 0 8px  rgb(144, 180, 247);
 }
