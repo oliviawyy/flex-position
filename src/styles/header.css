@@ -1,0 +1,105 @@
+/*header fixo no topo, largura 100%, com sombra e fundo branco*/
+.header{
+    display: flex;
+    top: 0;
+    position: fixed;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    padding: 100;
+    background-color: rgb(166, 213, 254);
+    box-shadow: 0 2px 5px cornflowerblue;
+
+    /* flex para alinhae os itens horizontalmente */
+    display: flex;
+    /* alinha verticalmente ao centro */
+    align-items: center;
+    /* espacço entre logo, menu e login */
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 1000; /* fica acima de outros */
+
+    
+}
+
+/* controla o tamanho da imagem da logo */
+.header-logo img{
+    height: 50px;
+    
+    
+    
+}
+
+/* menu: lista horizontal usando flex */
+.header-menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* espaço entre os itens */
+    gap: 20px;
+    
+}
+
+/* itens do menu: estilo botao */
+.header-menu li{
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3 ease, color 0.3s ease;
+    box-shadow: 0 2px 4px rgb(56, 93, 161);
+    /* evita selecao do texto no clique */
+    user-select: none;
+    
+}
+
+/* efeito hover nos itens do menu */
+.header-menu li:hover{
+    background-color: darkblue;
+    color: aliceblue;
+    box-shadow: 0 4px 8px rgb(19, 59, 135);
+    
+}
+
+/* area de login: icone e busca alinhados */
+.header-login{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+/* icone perfil: remove margem e define tamanho */
+.header-icon figure{
+    margin: 0;
+    width: 40px;
+    height: 40px;
+}
+
+/* icone perfil: imagem redonda com sombra */
+.header-icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* deixa o icone redondo */
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgb(9, 65, 170);
+    
+}
+
+/* campo de busca: padding, bordas arredondadas e tamanho */
+.header-search input{
+    padding: 7px 12px;
+    border: 1px solid cornsilk;
+    border-radius: 20px;
+    outline: none;
+    transition: border-color 0.3 ease;
+    width: 180px;
+    color: dodgerblue;
+}
+
+/* efeito foco no campo de busca */
+.header-search input:focus{
+    border-color: rgb(144, 180, 247);
+    box-shadow: 0 0 8px  rgb(144, 180, 247);
+}
