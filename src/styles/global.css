@@ -15,14 +15,15 @@ html{
     align-items: center;
     font-size: 40px;
     color: rgb(255, 255, 255);
-
-
+    text-align: center;
+    
 
 }
 
 .content-nosso-time{
     background-color: rgb(94, 205, 241);
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .content-cursos{
@@ -36,9 +37,6 @@ html{
 .content-contato{
     background-color: white;
 }
-
-
-
 
 
 

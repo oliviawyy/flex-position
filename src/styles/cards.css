@@ -1,14 +1,37 @@
 .speaker-card{
     justify-content: center;
-    width: 270px;
-    border: 4px solid rgb(28, 144, 238);
+    width: 250px;
+    border: 6px solid rgb(28, 144, 238);
     overflow: hidden;
-    border-radius: 5px;
+    border: 3px;
+    text-align: center;
+    border-radius: 8px;
     background-color: rgb(255, 255, 255);
+    transition: ease-out 0.3s;
 }
 
-   
+.speaker-card img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
+.speaker-card figurecaption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+/* pseudo classe que controla o evento do mouse (em cima) */
+.speaker-card:hover{
+    transform: scale(1.07);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: 2px solid rgb(28, 144, 238);
+}
 
 .speaker-card h3{
     display: flex;
@@ -22,4 +45,5 @@
     color: rgb(31, 174, 240);
     font-size: medium;
     justify-content: center;
+    margin: 0px 0;
 }

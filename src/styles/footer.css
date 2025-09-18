@@ -1,0 +1,56 @@
+/* container principal */
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(130, 220, 243);
+    box-shadow: 0 -2px 5px rgb(127, 194, 238);
+}
+
+/* container da esquerda */
+.footer-address{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+/* titulo do container da esquerda (filho) */
+.footer-address__title{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* container do meio */
+.footer-info{
+    margin-top: 5px;
+    line-height: 1.6;
+}
+
+/* container da direita */
+.footer-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+/* container da direita ( filho do footer-social) */
+.footer-social ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+/* container da direita (filho da ul) */
+.footer-social img{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+/* classe responsavel por aplicar o efeito em todos os icones das redes sociais) */
+.effect:hover{
+    transform: scale(1.2);
+}
