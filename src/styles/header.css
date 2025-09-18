@@ -59,7 +59,7 @@
 /* efeito hover nos itens do menu */
 .header-menu li:hover{
     background-color: rgb(91, 129, 233);
-    color: aliceblue;
+    color: rgb(228, 242, 253);
     box-shadow: 0 4px 8px rgb(47, 96, 187);
     
 }

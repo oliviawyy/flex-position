@@ -1,17 +1,31 @@
 /* container principal */
 .footer-content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    display: block;
+    padding: 100;
     background-color: rgb(130, 220, 243);
-    box-shadow: 0 -2px 5px rgb(127, 194, 238);
+    box-shadow: 0 2px 5px rgb(127, 194, 238);
+
+    /* flex para alinhae os itens horizontalmente */
+    display: block;
+    /* alinha verticalmente ao centro */
+    align-items: center;
+    /* espacço entre logo, menu e login */
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 1000; /* fica acima de outros */
+    height: 8vh;
 }
 
 /* container da esquerda */
 .footer-address{
-    color: rgb(255, 255, 255);
+    color: rgb(94, 205, 241);
     font-size: 18px;
+
 }
 
 /* titulo do container da esquerda (filho) */
@@ -36,10 +50,13 @@
 
 /* container da direita ( filho do footer-social) */
 .footer-social ul{
-    list-style: none;
-    display: flex;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    display: flex;
+    /* espaço entre os itens */
+    gap: 20px;
+    transition: all 0.3s ease-in-out;
+    
 }
 
 /* container da direita (filho da ul) */
