@@ -1,30 +1,17 @@
 /* container principal */
 .footer-content{
-    display: block;
-    top: 0;
-    left: 0;
-    width: 100%;
-
-    display: block;
-    padding: 100;
-    background-color: rgb(130, 220, 243);
-    box-shadow: 0 2px 5px rgb(127, 194, 238);
-
-    /* flex para alinhae os itens horizontalmente */
-    display: block;
-    /* alinha verticalmente ao centro */
-    align-items: center;
-    /* espacço entre logo, menu e login */
-    justify-content: space-between;
-    padding: 0 20px;
-    z-index: 1000; /* fica acima de outros */
     height: 8vh;
+    background-color: aqua;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* container da esquerda */
 .footer-address{
     color: rgb(94, 205, 241);
-    font-size: 18px;
+    font-size: 14px;
 
 }
 
@@ -43,28 +30,22 @@
 /* container da direita */
 .footer-social{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 50px;
+    
 }
 
 /* container da direita ( filho do footer-social) */
 .footer-social ul{
-    margin: 0;
-    padding: 0;
     display: flex;
-    /* espaço entre os itens */
-    gap: 20px;
-    transition: all 0.3s ease-in-out;
+    padding: 0;
+    margin: 0;
     
 }
 
 /* container da direita (filho da ul) */
 .footer-social img{
-    width: 30px;
-    height: 30px;
-    margin: 0 10px;
-    transition: transform 0.3s ease;
+   width: 30px;
+   height: 30px;
+   margin: 0 10px;
 }
 
 /* classe responsavel por aplicar o efeito em todos os icones das redes sociais) */
