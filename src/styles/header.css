@@ -53,6 +53,7 @@
     box-shadow: 0 2px 4px rgb(56, 93, 161);
     /* evita selecao do texto no clique */
     user-select: none;
+    ;
     
 }
 
@@ -61,6 +62,7 @@
     background-color: rgb(91, 129, 233);
     color: rgb(228, 242, 253);
     box-shadow: 0 4px 8px rgb(47, 96, 187);
+    transform: scale(1.10);
     
 }
 

@@ -52,3 +52,12 @@ html{
     height: 100vh;
     background-color: rgb(94, 205, 241);
 }
+
+.whatsapp-button{
+    position: fixed;
+    bottom: 60px;
+    right: 15px;
+    filter: drop-shadow(0 0 4px rgb(8, 86, 160));
+    z-index: 1000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}

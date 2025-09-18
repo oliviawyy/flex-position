@@ -70,9 +70,13 @@
    transition: 0.3s ease;
    height: 30px;
    margin: 0 10px;
+   
 }
 
 /* classe responsavel por aplicar o efeito em todos os icones das redes sociais) */
 .effect:hover{
     transform: scale(1.2);
+    filter: drop-shadow(0 0 3px rgb(8, 86, 160));
+    cursor: pointer;
+    
 }
