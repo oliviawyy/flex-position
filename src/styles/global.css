@@ -25,6 +25,7 @@ html{
     justify-content: space-evenly;
     flex-wrap: wrap;
     display: flex;
+    align-items: center;
     
 }
 
