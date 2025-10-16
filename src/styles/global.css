@@ -14,7 +14,7 @@ html{
     justify-content: center;
     align-items: center;
     font-size: 40px;
-    color: rgb(255, 255, 255);
+    color: rgb(62, 103, 227);
     text-align: center;
     
 
@@ -24,18 +24,17 @@ html{
     background-color: rgb(94, 205, 241);
     justify-content: space-evenly;
     flex-wrap: wrap;
+    display: flex;
+    
 }
 
-.content-cursos{
-    background-color: white;
-}
 
 .content-faq{
-    background-color: rgb(94, 205, 241);
+    background-color: white;
 }
 
 .content-contato{
-    background-color: white;
+    background-color: rgb(94, 205, 241);
 }
 
 
@@ -55,9 +54,18 @@ html{
 
 .whatsapp-button{
     position: fixed;
-    bottom: 60px;
-    right: 15px;
-    filter: drop-shadow(0 0 4px rgb(8, 86, 160));
+    bottom: 75px;
+    right: 18px;
+    filter: drop-shadow(0 0 3px rgb(8, 86, 160));
     z-index: 1000;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.foto-WhatsApp{
+    width: 10;
+}
+
+.texto-principal{
+    w
 }
