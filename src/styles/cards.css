@@ -47,3 +47,11 @@
     justify-content: center;
     margin: 0px 0;
 }
+
+.container-cards {
+    /* Define este contêiner para usar Flexbox, colocando os itens lado a lado */
+    display: flex;
+    flex-wrap: wrap; /* Permite que cards quebrem a linha se a tela for pequena */
+    justify-content: center; /* Centraliza os cards dentro deste contêiner */
+    gap: 30px; /* Adiciona espaçamento entre os cards */
+}
