@@ -29,9 +29,7 @@ html{
     padding-top: 50px;
     height: 100vh;
     width: 100%;
-    
-    
-    
+
 }
 
 
@@ -43,17 +41,24 @@ html{
     font-size: 50px; 
     color: rgb(62, 103, 227);
     margin-top: 100px;
+    font-family: Garamond;
+    font-weight:bolder;
 }
 
-.content-faq{
-    background-color: white;
-}
+
+
+/* .titulo-faq h2{
+    font-family: Garamond;
+    font-weight:bolder;
+} */
+
+
+
+
 
 .content-contato{
     background-color: rgb(94, 205, 241);
 }
-
-
 
 
 .main-content{
@@ -82,3 +87,73 @@ html{
     width: 10;
 }
 
+/* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+
+    .content-faq {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 10%;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .titulo-faq {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #0b2a45;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .container-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .imagem-lado img {
+    width: 350px;
+    max-width: 100%;
+    border-radius: 12px;
+  }
+  
+  .texto-lado {
+    flex: 1;
+    background-color: #b3e3ff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  .texto-lado p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #222;
+    text-align: justify;
+  }
+  
+  /* Responsivo */
+   @media (max-width: 900px) {
+    .container-principal {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .texto-lado {
+      padding: 25px;
+    }
+  
+    .imagem-lado img {
+      width: 70%;
+    }
+  } 
+  
+
+ 

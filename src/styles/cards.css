@@ -35,23 +35,30 @@
 
 .speaker-card h3{
     display: flex;
-    color: rgb(122, 202, 255);
+    color: rgb(76, 183, 255);
     justify-content: center;
     font-size: large;
 
 }
 
 .speaker-card p{
-    color: rgb(31, 174, 240);
+    color: rgb(112, 210, 255);
     font-size: medium;
     justify-content: center;
     margin: 0px 0;
 }
 
+
+.speaker-card h4{
+    color: rgb(44, 188, 255);
+    font-size: large;
+    justify-content: center;
+    margin: 0px 0;
+}
+
 .container-cards {
-    /* Define este contêiner para usar Flexbox, colocando os itens lado a lado */
     display: flex;
-    flex-wrap: wrap; /* Permite que cards quebrem a linha se a tela for pequena */
-    justify-content: center; /* Centraliza os cards dentro deste contêiner */
+    flex-wrap: wrap; 
+    justify-content: center; 
     gap: 30px; /* Adiciona espaçamento entre os cards */
 }
