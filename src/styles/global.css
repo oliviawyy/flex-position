@@ -47,18 +47,7 @@ html{
 
 
 
-/* .titulo-faq h2{
-    font-family: Garamond;
-    font-weight:bolder;
-} */
 
-
-
-
-
-.content-contato{
-    background-color: rgb(94, 205, 241);
-}
 
 
 .main-content{
@@ -87,7 +76,7 @@ html{
     width: 10;
 }
 
-/* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+/* FAQ */
 
     .content-faq {
     /* background-color: white; */
@@ -109,6 +98,8 @@ html{
     margin-bottom: 50px;
     text-align: center;
   }
+
+  
   
   .container-principal {
     display: flex;
@@ -120,11 +111,13 @@ html{
   }
   
   .imagem-lado img {
-    width: 350px;
-    max-width: 100%;
+    width: 100%; 
+    max-width: 350px;
     border-radius: 12px;
+position: static; 
+margin: 0 auto; 
   }
-  
+ 
   .texto-lado {
     flex: 1;
     background-color: #b3e3ff;
@@ -158,10 +151,37 @@ html{
     }
   
     .imagem-lado img {
-      width: 70%;
+      width: 90%; 
+margin: 0 auto;
     }
   } 
 
-  
-
+  /* CONTENT */
+.content-contato{
+    background-color: rgb(94, 205, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column-reverse;
+}
  
+
+  .imagem-lado-1 {
+    width: 10%;
+    
+  }
+    
+
+  .titulo-content {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #1f96ff;
+    margin-bottom: 20px; /* Adicionei margem para espaçamento */
+    text-align: center;
+    font-family: Garamond;
+    }  
+
+   
+  
+  
